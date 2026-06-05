@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDEN PORTFOLIO</title>
+    
+    <style>
+      
+        body {
+            background-color: black;
+            color: white;
+            font-family: SF Mono,monospace;
+
+            margin: 0;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+          
+        }
+
+        
+        .con {
+            margin:0 auto;
+        }
+
+        
+        .divt, .mis, .box {
+            background: rgba(255, 255, 255, 0.05); 
+            border: 1px solid dimgray;
+            border-radius: 24px;
+            padding: 24px;
+            margin-bottom:27px;
+            font-family: Times New Roman,Times;
+          transition: transform 0.3s ease;
+        }
+            
+            
+        
+      
+ .mis:hover,.divt:hover,.box:hover {
+            transform: translateY(-5px);
+            border-color: gold;
+        }
+        
+        .divt {
+            grid-column: span 2;
+            display: flex;
+           flex-direction: column; 
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        
+        .mis {
+            grid-column: span 2;
+            font-family: Times New Roman,Times;
+        }
+
+.divt .hope {
+    justify-content: center;
+}
+
+        
+        h1 {
+            margin: 0;
+            font-size: 32px;
+            letter-spacing: -1px;
+        }
+
+        h2 {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: gold;
+            letter-spacing: 2px;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: gray;
+            font-size: 15px;
+            line-height: 1.5;
+            margin: 5px 0;
+        }
+
+        .pt{
+            font-size: 48px;
+            font-weight: 800;
+            color: white;
+            display: block;
+        }
+
+        
+        .hope {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+
+        .hope span {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 6px 12px;
+            border-radius: 10px;
+            font-size: 12px;
+            border: 1px solid dimgray;
+        }
+.le::first-letter{
+  font-size: 27px;
+  color:white;
+}
+        
+        @media (max-width: 700px){
+          
+        }
+    
+        img{
+          width: 140px;
+          height: 140px; 
+          border-radius: 50%; 
+          border: 3px solid gold; 
+          object-fit: cover;
+          margin-bottom: 20px;
+        }
+        strong{
+          display: block; 
+          color: white; 
+          font-size: 14px;
+        }
+        .at{
+         margin-bottom: 15px;
+        }
+    
+
+        
+       .nt{
+          font-size: 14px; 
+          margin: 0;
+        }
+        .cc{
+          font-size: 13px;
+        }
+       .sp{
+          color:gold;
+          border-color:gold !important;
+        }
+        footer{
+          font-size: 13px;
+          color: gray;
+          margin: 0;
+          font-family:monospace;
+          text-align:center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="con">
+        
+        <div class="divt">
+            <img src="eden.jpg" alt="Eden">
+            <h1>Eden Temesgen</h1>
+            <p>11th Grade Scholar & Creative Architect</p>
+            <div class="hope">
+                <span class="sp">Web Developer</span>
+                <span class="sp">Graphic Designer</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <h2>Academics</h2>
+            <span class="pt">94.5%</span>
+            <p >GPA across 7 STEM subjects.</p>
+        </div>
+
+        <div class="box">
+            <h2>Linguistics</h2>
+            <div class="hope">
+                <span>English</span>
+                <span>Spanish</span>
+                <span>Oromic</span>
+                <span>Amharic</span>
+                <span>Russian</span>
+            </div>
+        </div>
+
+        <div class="mis">
+            <h2>Mission</h2>
+            <p class="le">I am a disciplined creator blending Physics logic with aesthetic design. I code by heart and build with precision, ensuring every pixel and formula is calculated for excellence.</p>
+        </div>
+
+        <div class="box">
+            <h2>Lifestyle</h2>
+            <div class="at">
+                <strong>Philosophy</strong>
+                <p class="nt">Daily reading of stoic ethics and logic.</p>
+            </div>
+            <div class="at">
+                <strong>Architect</strong>
+                <p class="nt">Designing home by mimicing from nature.</p>
+            </div>
+            <div class="at">
+                <strong>Trading</strong>
+                <p class="nt">Mastering financial market cycles.</p>
+            </div>
+        </div>
+
+        <div class="mis">
+            <h2>Technical Stack</h2>
+            <div class="hope">
+                <span>PixelLab Design</span>
+                <span>HTML / CSS</span>
+                <span>Video Editing</span>
+                <span>STEM Research</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <h2>Connect</h2>
+            <p class="cc"> &#128222; +251 925 487 071</p>
+            <p class="cc"> &#128233;edent3089@gmail.com</p>
+        </div>
+        
+          <footer>
+    <p>PORTFOLIO| Built by Eden &#128187;&#127891;&#128200;
+    </p>
+
+
+    </div>
+
+</body>
+</html>
